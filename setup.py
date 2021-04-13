@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='Heart Disease Prediction',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='A web app to predict heart disease based on user information',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Rohan Datta',
+    author_email='dattarohan4@gmail.com',
+    url='https://github.com/rohandatta/Web-App',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
